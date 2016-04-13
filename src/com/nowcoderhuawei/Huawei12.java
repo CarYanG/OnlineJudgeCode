@@ -9,6 +9,11 @@ public class Huawei12 {
 
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
+        while(sc.hasNext()){
+            StringBuffer sb=new StringBuffer(sc.nextLine());
+            System.out.println(sb.reverse());
+
+        }
 
     }
 }
@@ -32,5 +37,22 @@ public class Huawei12 {
  输出例子:
  dcba
 
+ #include <iostream>
+ #include <string>
+ #include <algorithm>
+
+ using namespace std;
+
+ int main()
+ {
+    string input;
+    while (cin >> input)
+ {
+    reverse(input.begin(), input.end());
+    cout << input << endl;
+ }
+
+    return 0;
+ }
 
  */
