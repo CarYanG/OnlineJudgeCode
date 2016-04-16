@@ -9,5 +9,10 @@ public class test {
         char b=(char)(a+'0');
         System.out.println(b);
 
+        int[] c=new int[10];
+        for(int i:c){
+            System.out.println(i);
+        }
+
     }
 }
