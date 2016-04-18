@@ -14,5 +14,10 @@ public class test {
             System.out.println(i);
         }
 
+
+        String d="    ";
+        System.out.println(d.length());
+
+
     }
 }
