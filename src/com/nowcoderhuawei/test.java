@@ -4,19 +4,17 @@ package com.nowcoderhuawei;
  * Created by carl on 2016/4/15.
  */
 public class test {
+    private   int a=0;
+    public test(){
+        System.out.println(this.a);
+    }
+    public void function(){
+        System.out.println(a+"A");
+    }
     public static void main(String args[]){
-        int a=12;
-        char b=(char)(a+'0');
-        System.out.println(b);
-
-        int[] c=new int[10];
-        for(int i:c){
-            System.out.println(i);
-        }
-
-
-        String d="    ";
-        System.out.println(d.length());
+         int a=1;
+        System.out.println(a);
+        new test().function();;
 
 
     }
