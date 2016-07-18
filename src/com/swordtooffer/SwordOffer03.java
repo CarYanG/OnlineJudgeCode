@@ -1,30 +1,42 @@
 package com.swordtooffer;
-
 import java.util.ArrayList;
-import java.util.List;
+
 
 /**
  * Created by carl on 2016/4/20.
+ *
+ * 从尾到头打印链表
+ *
+ * 采用递归的方式
  */
 public class SwordOffer03 {
-    public static  void  main(String args[]){
 
-    }
+    ArrayList<Integer> result=new ArrayList<Integer>();
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-        ArrayList<Integer> result=new ArrayList<>();
 
+        if (listNode!=null){
+
+            printListFromTailToHead(listNode.next);
+            result.add(listNode.val);
+        }
         return result;
     }
 
+
+
 }
+
 
  class ListNode {
           int val;
           ListNode next = null;
-                   ListNode(int val) {
-                   this.val = val;
-               }
+          ListNode(int val)
+          {
+              this.val = val;
+          }
        }
+
+
 /**
  * 题目描述
 
