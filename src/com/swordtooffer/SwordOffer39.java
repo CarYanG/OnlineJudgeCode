@@ -5,7 +5,33 @@ package com.swordtooffer;
  */
 public class SwordOffer39 {
     public boolean IsBalanced_Solution(TreeNode root) {
-            return false;
+        if(root==null){
+            return true;
+        }
+        else{
+            int a=getHeight(root.right);
+            int b=getHeight(root.left);
+            if (a-b>1||a-b<-1){
+                return false;
+            }
+            return IsBalanced_Solution(root.left)&& IsBalanced_Solution(root.right);
+
+
+        }
+
+
+    }
+
+    public int getHeight(TreeNode root){
+        if(root==null){
+            return 0;
+        }
+        if(root.left!=null||root.right!=null){
+            return 1;
+        }
+
+        return getHeight(root.left)>getHeight(root.right)? getHeight(root.left):getHeight(root.right);
+
     }
 }
 
