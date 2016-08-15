@@ -20,7 +20,7 @@ public class test {
 //    }
 
     public static void main(String args[]){
-//        Object obj=new Object();
+        Object obj=new Object();
 
         Map<String,String> map=new HashMap<>();
         map.put(String.valueOf(System.currentTimeMillis())+"a","1");
@@ -30,6 +30,8 @@ public class test {
         for(Map.Entry<String,String> entry:map.entrySet()){
             System.out.println(entry.getKey());
         }
+
+
 
 
     }
