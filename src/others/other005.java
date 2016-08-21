@@ -5,7 +5,7 @@ package others;
  *
  * 求全排列
  */
-public class peilie {
+public class other005 {
 
 
 }

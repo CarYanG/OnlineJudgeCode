@@ -5,12 +5,12 @@ package others;
  *
  * 求两个数的最大公约数
  */
-public class zuidagongyueshu {
+public class other003 {
 
     public static void main(String args[]){
-        System.out.println(new zuidagongyueshu().solution(24,20));
+        System.out.println(new other003().solution(24,20));
 
-        System.out.println( zuidagongyueshu.gcd(24,26));
+        System.out.println( other003.gcd(24,26));
     }
 
     public int solution(int a,int b){

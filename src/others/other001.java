@@ -6,7 +6,7 @@ package others;
  *
  * 打印一个菱形
  */
-public class lingxing {
+public class other001 {
     public static void main(String args[]){
         for(int i=0;i<5;i++){
 
