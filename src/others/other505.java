@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 /**
  * Created by Administrator on 2016/8/21.
+ *
+ * 数字游戏
  */
 public class other505 {
     public int function(List<Integer> numberList){

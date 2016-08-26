@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * 网易有道内推笔试 构造队列
  *
- * 参考水仙花数
+ * 参考约瑟夫环
  */
 public class other502 {
 
@@ -38,10 +38,10 @@ public class other502 {
 
     public static void main(String[] args) {
         Scanner in =new Scanner(System.in);
-        int num=Integer.valueOf(in.nextLine().toString());
+        int num=Integer.valueOf(in.nextLine());
 
         while(num>0){
-            int a =Integer.valueOf(in.nextLine().toString());
+            int a =Integer.valueOf(in.nextLine());
 
             new other502().printResult(a);
 
@@ -78,7 +78,7 @@ public class other502 {
  4
  1
  2
- 5
+ 3
  10
  样例输出
  1
