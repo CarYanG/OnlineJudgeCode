@@ -64,7 +64,7 @@ public class SwordOffer60 {
         a2.left=a5;
         a2.right=a6;
 
-        ArrayList<ArrayList<Integer>> result=new SwordOffer60().Print(null);
+        ArrayList<ArrayList<Integer>> result=new SwordOffer60().Print(head);
 
         for(ArrayList<Integer> a:result){
 

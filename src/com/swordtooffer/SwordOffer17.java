@@ -7,6 +7,17 @@ package com.swordtooffer;
  */
 public class SwordOffer17 {
     public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+        if (root2==null||root1==null) return  false;
+
+        while (root1!=null){
+
+            if(root1.val==root2.val){
+
+            }
+        }
+
+
+
         return  false;
     }
 }
