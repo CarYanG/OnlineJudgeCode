@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by carl on 2016/10/2.
  *
- * Wireless Routers
+ * Wireless Routers   树形DP?
  */
 public class other525 {
 
